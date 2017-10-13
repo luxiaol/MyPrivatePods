@@ -1,0 +1,6 @@
+framework module MyPrivatePods {
+  umbrella header "MyPrivatePods-umbrella.h"
+
+  export *
+  module * { export * }
+}
