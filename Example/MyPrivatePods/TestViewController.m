@@ -6,6 +6,7 @@
 //  Copyright (c) 2017 luxiaol. All rights reserved.
 //
 
+#import "MyTestObject.h"
 #import "TestViewController.h"
 
 @interface TestViewController ()
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [MyTestObject testFuntion];
 }
 
 - (void)didReceiveMemoryWarning
