@@ -9,4 +9,6 @@
 
 @interface MyTestObject : NSObject
 
++ (NSString *) testFuntion;
+
 @end

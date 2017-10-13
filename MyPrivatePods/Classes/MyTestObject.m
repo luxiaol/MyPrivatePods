@@ -9,4 +9,8 @@
 
 @implementation MyTestObject
 
++ (NSString *)testFuntion {
+    return @"this is a test function retun from Private Pod";
+}
+
 @end
